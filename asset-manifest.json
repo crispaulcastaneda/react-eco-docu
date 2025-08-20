@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-eco-docu/static/css/main.990933f0.css",
-    "main.js": "/react-eco-docu/static/js/main.9d464ad4.js",
+    "main.css": "/react-eco-docu/static/css/main.57099890.css",
+    "main.js": "/react-eco-docu/static/js/main.39b5b506.js",
     "static/js/453.0a19223b.chunk.js": "/react-eco-docu/static/js/453.0a19223b.chunk.js",
     "index.html": "/react-eco-docu/index.html",
-    "main.990933f0.css.map": "/react-eco-docu/static/css/main.990933f0.css.map",
-    "main.9d464ad4.js.map": "/react-eco-docu/static/js/main.9d464ad4.js.map",
+    "main.57099890.css.map": "/react-eco-docu/static/css/main.57099890.css.map",
+    "main.39b5b506.js.map": "/react-eco-docu/static/js/main.39b5b506.js.map",
     "453.0a19223b.chunk.js.map": "/react-eco-docu/static/js/453.0a19223b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.990933f0.css",
-    "static/js/main.9d464ad4.js"
+    "static/css/main.57099890.css",
+    "static/js/main.39b5b506.js"
   ]
 }
