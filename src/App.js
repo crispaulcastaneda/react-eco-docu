@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import pokemon from './pokemon.json';
 import PropTypes from 'prop-types';
 
 
@@ -71,9 +70,22 @@ function App() {
   // const [currentState, function(which sets the filter)]
   const [filter, filterSet] = React.useState('');
 
+  // fetch pokemon.json from /public folder
+  // This is a static import, so the data is available at build time
+  const [pokemon, pokemonSet] = React.useState([]);
+
   // State to manage the selected Pokémon item
   // This can be used later to display more details about the selected Pokémon
   const [selectedItem, selectedItemSet] = React.useState(null);
+
+  React.useEffect(() => {
+    fetch('http://localhost:3000/react-eco-docu/pokemon.json')
+      .then((resp) => resp.json())
+      .then((data) => pokemonSet(data));
+  }, []);
+
+
+
 
   return (
     <div
